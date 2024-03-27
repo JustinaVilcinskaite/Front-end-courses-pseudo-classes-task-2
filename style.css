@@ -1,0 +1,63 @@
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+  gap: 2rem;
+  height: 100vh;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+
+  padding: 1rem;
+  background-color: #84e0cb;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.link:hover {
+  color: #fff;
+}
+
+.link:active {
+  background-color: #243d37;
+}
+
+.btn {
+  background-color: rgb(101, 101, 148);
+  cursor: pointer;
+  padding: 1rem;
+  border: none;
+  color: rgb(23, 24, 24);
+  width: 100px;
+  transition: 0.2s;
+  outline: none;
+}
+
+.btn:focus {
+  border: 3px solid green;
+}
+
+.link-2 {
+  text-decoration: none;
+  color: #000;
+}
+
+.link-2:visited {
+  color: #535151;
+}
+
+p {
+  width: 500px;
+}
+
+p::first-letter {
+  color: aqua;
+}
+
+p::first-line {
+  color: #d69696;
+}
